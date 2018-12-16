@@ -1,0 +1,19 @@
+command:
+  wordpress:
+      setup:
+        options:
+          wp-user: nedstark
+          wp-pw: winteriscoming
+          wp-theme-dir: headless-wp
+          wp-theme-name: Headless WP Starter
+          wp-email: admin@headless-wp.com
+          wp-db-name: wp_headless
+          wp-description: Just another (headless) WordPress site by your friends at Scope Web
+          # wp-plugins is optional
+          # If not set, Robo will activate all the plugins that are installed.
+          # wp-plugins:
+      import:
+        options:
+            migratedb-license:
+            # Use http vs https to avoid SSL error https://deliciousbrains.com/wp-migrate-db-pro/doc/ssl-errors/
+            migratedb-from:
