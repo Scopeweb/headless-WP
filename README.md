@@ -73,7 +73,7 @@ The Next.js app will be running on [http://localhost:3000](http://localhost:3000
 
 Most WordPress hosts don't also host Node applications, so when it's time to go live, you will need to find a hosting service for the frontend.
 
-That's why we've packaged the frontend app in a Docker container, which can be deployed to a hosting provider with Docker support like Amazon Web Services or Google Cloud Platform. For a fast, easier alternative, check out [Now](https://zeit.co/now).
+That's why we've packaged the frontend app in a Docker container, which can be deployed to a hosting provider with Docker support like Amazon Web Services or Google Cloud Platform.
 
 To run the Docker container locally:
 
